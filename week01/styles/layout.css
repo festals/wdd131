@@ -30,12 +30,11 @@ a:hover {
 	text-decoration-color: yellow;
 }
 
-h1 {text-align: center;
+h1 {text-align: left;
 }
 
 p{
-    text-align: center; 
-     
+    text-align: center;   
 }
 
 main {
