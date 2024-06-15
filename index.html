@@ -7,43 +7,50 @@
     <meta name="description" content="Home page website by Sophie Festal for the WWD 131 course.">
     <meta name="author" content="Sophie Festal">
     <link rel="stylesheet" href="styles/base.css">
+    <script defer src="scripts/getdates.js"></script>
 </head>
 <body>
     <header>
         <h1>WDD 131: Dynamic Web Fundamentals - Sophie Festal</h1>
         <nav>
-            <a href="https://www.linkedin.com">LinkedIn</a>
-            <a href="https://byui.instructure.com/">I-Learn</a>
-            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/2?lang=eng&id=p25#p25">Scripture</a>
-            <a href="#">Final Project</a>
+            <ul>
+                <li><a href="https://www.linkedin.com">LinkedIn</a></li>
+                <li><a href="https://byui.instructure.com/">I-Learn</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/2?lang=eng&id=p25#p25">Scripture</a></li>
+                <li><a href="#">Final Project</a></li>
+            </ul>
         </nav>
     </header>
     <main>
-        <section class="card1">
+        <section class="card">
             <h2>About Me</h2>
-            <p id="para1">My name is Sophie. I was born in France and I live my all life thirty minute away from where I was born. I am currently out of work for I decided to concentrate on my study for now. I love to cook and I spend most of my free time in my garden taking care of my vegetables and fruits I grew with myself.</p>
-            <img id="profile" src="images/profile.jpg" alt="picture of Sophie Festal">
+            <div class="about-me">
+                <p>My name is Sophie. I was born in France and I live my all life thirty minute away from where I was born. I am currently out of work for I decided to concentrate on my study for now. I love to cook and I spend most of my free time in my garden taking care of my vegetables and fruits I grew with myself.</p>
+                <img id="profile" src="images/profile.jpg" alt="picture of Sophie Festal">
+            </div>
             <h3>France</h3>
-            <figure>
-                <img id="flag" src="images/flag.jpg" alt="France's flag">
-                <figcaption>Official Flag of France</figcaption>
-            </figure>
-            <p id="para2">France is located in western Europe, surrounded by the mediterranneen sea, the atlantic ocean and the Manche. Its capital is one of the four fashion capitals of the world. France was one of the most touristy country in the world.  </p>
-            
+            <div class="about-france">
+                <figure>
+                    <img id="flag" src="images/flag.jpg" alt="France's flag">
+                    <figcaption>Official Flag of France</figcaption>
+                </figure>
+                <p>France is located in western Europe, surrounded by the mediterranneen sea, the atlantic ocean and the Manche. Its capital is one of the four fashion capitals of the world. France was one of the most touristy country in the world.  </p>
+            </div>
         </section>
         <section class="card">
             <h2>Web Dev Resources</h2>
-            <nav>
-                <a href="https://www.w3schools.com">W3 Schools</a>
-                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">MDN css</a>
-            </nav>
+            <ul>
+                <li><a href="https://www.w3schools.com">W3 Schools</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">MDN css</a></li>
+                <li><a href="https://www.khanacademy.org/">Khan Academy</a></li>
+            </ul>
         </section>
     </main>
     <footer>
         <p>
             ©️<span id="currentyear"></span> | Sophie Festal | FRANCE
         </p>
-        <p id="lastModified"></p>
+        <p>Last modification: <span id="lastModified"></span></p>
 
     </footer>
 </body>
