@@ -1,11 +1,11 @@
-const currentYear = document.querySelector("#currentyear");
-const year = new Date().getFullYear();
+const dateContainer = document.querySelector("#currentyear");
+const lastModifiedContainer = document.getElementById("lastModified");
+const today = new Date()
+const year = today.getFullYear()
+const lastModified = document.lastModified
 
-
-const lastModfiedDate = document.querySelector("#lastModified");
-currentYear.innerHTML = year;
-
-lastModfiedDate.innerHTML = new Date(document.lastModified);
+dateContainer.innerHTML=year;
+lastModifiedContainer.innerHTML= lastModified;
 
 
 
