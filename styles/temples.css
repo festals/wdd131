@@ -55,7 +55,7 @@ h1 {
     color : aliceblue;
     text-align : center;
     padding : 0.75rem;
-    font-weight : 700;
+    font-weight : 400;
     transition : 0.5s;
 }
 
@@ -102,8 +102,7 @@ h2 {
 figcaption {
     font-style: italic;
     text-align : center;
-    color: steelblue;
-    font-weight: 700;
+    color: black;
 }
 
 footer {
@@ -112,7 +111,6 @@ footer {
 }
 
 footer p {
-    color: aliceblue;
+    color: white;
     text-align : center;
-    font-weight: 700;
 }
