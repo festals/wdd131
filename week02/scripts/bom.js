@@ -10,5 +10,22 @@ li.textContent = input.value;
 deleteButton.textContent = '❌';
 
 li.append(deleteButton);
-
 list.append(li);
+
+button.addEventListener('click', function() {
+    if (input.value.trim() !== '') { 
+        list.appendChild(li);
+        input.focus();
+    } 
+    else {
+        "this can not be empty"
+    }
+});
+
+deleteButton.addEventListener('click', function () {
+    list.removeChild(li);
+    input.focus();
+});
+
+input.value = '';
+input.focus();
