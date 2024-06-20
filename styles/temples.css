@@ -55,7 +55,7 @@ h1 {
     color : aliceblue;
     text-align : center;
     padding : 0.75rem;
-    font-weight : 400;
+    font-weight : 700;
     transition : 0.5s;
 }
 
@@ -113,4 +113,5 @@ footer {
 footer p {
     color: white;
     text-align : center;
+    font-weight: 700;
 }
