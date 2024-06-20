@@ -1,5 +1,5 @@
 body{
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Roboto";
     font-weight: 400;
     background-color : aliceblue;
     max-width : 960px;
@@ -19,7 +19,7 @@ header {
 
 h1 {
     color:aliceblue;
-    font-weight : 100;
+    font-weight : 400;
     text-align : left;
     padding : 1rem 0 0 1rem;
 }
@@ -87,7 +87,7 @@ h1 {
 h2 {
     display : flex;
     justify-content : center;
-    color : steelblue
+    color : steelblue;
 }
 
 .temple {
@@ -103,6 +103,7 @@ figcaption {
     font-style: italic;
     text-align : center;
     color: steelblue;
+    font-weight: 700;
 }
 
 footer {
@@ -113,4 +114,5 @@ footer {
 footer p {
     color: aliceblue;
     text-align : center;
+    font-weight: 700;
 }
