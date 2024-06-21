@@ -1,7 +1,7 @@
 body{
     font-family: "Roboto";
     font-weight: 400;
-    background-color : aliceblue;
+    background-color : white;
     max-width : 960px;
     margin : 0 auto;
     display : grid;
@@ -13,12 +13,12 @@ main {
 }
 
 header {
-    background-color : steelblue;
+    background-color : aliceblue;
     align-items : center;
 }
 
 h1 {
-    color:aliceblue;
+    color:black;
     font-weight : 400;
     text-align : left;
     padding : 1rem 0 0 1rem;
@@ -36,7 +36,7 @@ h1 {
 
 #menu::before {
     content : "≡";
-    color: aliceblue;
+    color: black;
 }
 
 .navigation {
@@ -52,7 +52,7 @@ h1 {
 .navigation a {
     display : block;
     text-decoration : none;
-    color : aliceblue;
+    color : black;
     text-align : center;
     padding : 0.75rem;
     font-weight : 700;
@@ -60,7 +60,8 @@ h1 {
 }
 
 .navigation a:hover {
-    color : black;
+    text-decoration :overline;
+    text-decoration-color: steelblue;
 }
 
 .show {
@@ -102,16 +103,16 @@ h2 {
 figcaption {
     font-style: italic;
     text-align : center;
-    color: black;
+    color: steelblue;
 }
 
 footer {
-    background-color : steelblue;
+    background-color : aliceblue;
     padding : 0.1rem;
 }
 
 footer p {
-    color: white;
+    color: black;
     text-align : center;
     font-weight: 700;
 }
