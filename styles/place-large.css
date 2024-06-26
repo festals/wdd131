@@ -1,6 +1,7 @@
 @media (min-width: 1000px) {
     :root {
         --backgrnd-transparent : hsl(0 0% 100% / 0.548);
+        --red-backgrnd-transp : hsl(0, 100%, 50%, 0.548);
         --blue : #002654;
         --red : #ED2939;
     }
@@ -26,6 +27,7 @@
 
     .data {
         position : absolute;
+        padding:0;
         top : 55%;
         left : 15%;
         transform : translate(-50%,-50%);
@@ -48,11 +50,13 @@
     }
     
     section h2:nth-child(1) {
-        background-color : var(--red);
+        background-color : var(--red-backgrnd-transp);
         width : 20rem;
         margin-left : -1.4rem;
         color : white;
         text-align : left;
     }
+
+
 
 }
