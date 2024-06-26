@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>France | wdd 131</title>
+        <meta name="description" content="A web page about France with data for wdd 131 course by sophie festal">
+        <meta name="author" content="Sophie Festal">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/place.css">
+        <link rel="stylesheet" href="styles/place-large.css">
+        <script defer src="scripts/place.js"></script>
+        <script defer src="scripts/getdates.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>FRANCE</h1>
+        </header>
+        <main>
+            <div class="hero">
+                <picture>
+                    <source srcset="images/hero.webp" media="(min-width: 1000px)" width="1500" height="750">
+                    <img src="images/hero-small.webp" alt="Eiffel tower in Paris, France" width="480" height="640">
+                </picture>
+            </div>
+            <section class="data">
+                <h2>Data</h2>
+                <h3>Area:</h3>
+                    <p>672,051 sq km</p>
+                <h3>Population:</h3>
+                    <p>63,373,433</p>
+                <h3>Capital:</h3>
+                    <p>Paris</p>
+                <h3>Languages:</h3>
+                    <p>French</p>
+                <h3>Currency:</h3>
+                    <p>Euro</p>
+                <h3>Time Zone:</h3>
+                    <p>UTC +2</p>
+                <h3>Calling Code:</h3>
+                    <p>+33</p>
+                <h3>Internet TLD:</h3>
+                    <p>.fr</p>       
+            </section>
+            <section class="weather">
+                <h2>Weather</h2>
+                <div class="icon">
+                    <img class="icon-image" src="images/weather-icon.svg" alt="weather icon" width="100" height="100">
+                </div>
+                <div>
+                <h3>Temperature:</h3>
+                    <span id="temperature"></span>
+                <h3>Conditions:</h3>
+                    <span id="condition"></span>
+                <h3>Wind:</h3>
+                    <span id="wind"></span>
+                <h3>Windchill:</h3>
+                    <span id="windchill"></span>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>
+                ©️<span id="currentyear"></span> | Sophie Festal | FRANCE
+            </p>
+            <p>Last modification: <span id="lastModified"></span></p>
+        </footer>
+    </body>
+</html>
