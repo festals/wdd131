@@ -10,7 +10,8 @@
     }
 
     .weather h2::after {
-        content : "⛅";
+        content : "☀️";
+        padding-left:1rem;
     }
 
     picture img {
@@ -28,6 +29,7 @@
         top : 55%;
         left : 15%;
         transform : translate(-50%,-50%);
+        border-bottom: none;
         }
 
     .weather {
@@ -40,28 +42,26 @@
     .data, .weather {
         background-color : var(--backgrnd-transparent);
         height : fit-content;
-    }
-
-    .data,.weather{
         padding-top: 1rem;
         padding-right: 1rem;
         padding-bottom: 0;
     }
 
-    .data{
-        border-bottom: none;
+    .weather h3{
+        padding-left: 2rem;
+    }
+
+    .weather p {
+        padding-left:10rem;
+        padding-top: rem;
     }
     
     section h2:nth-child(1) {
         background-color : var(--red);
         width : 20rem;
-
         margin-left : -1.4rem;
         color : white;
         text-align : left;
     }
 
-    section p:nth-child(1) {
-        padding-top : 2rem;
-    }
 }
