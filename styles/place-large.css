@@ -48,12 +48,12 @@
     }
 
     .weather h3{
-        padding-left: 2rem;
+        padding-right: 1rem;
     }
 
     .weather p {
         padding-left:10rem;
-        padding-top: rem;
+        ;
     }
     
     section h2:nth-child(1) {
