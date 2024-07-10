@@ -33,6 +33,7 @@ footer{
 .form1 label{
     display: block;
     padding-top: 1rem;
+    padding-bottom: .5rem;
     font-size: 1rem;
     font-weight: bold;
 }
@@ -58,8 +59,7 @@ footer{
     appearance: none;
 }
 
-.form1 input[type="textarea"]
-{
+textarea{
     background-color:#fff;
     display: block;
     border: solid 1px #999;
@@ -74,13 +74,6 @@ footer{
 .form1 input[type="checkbox"]
 {
     margin-right: 6px;
-}
-
-label input[type="radio"]
-{
-    display : flex;
-    flex-direction : row;
-    padding-right : 2rem;  
 }
 
 .form1 input[type="submit"]
