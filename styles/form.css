@@ -1,0 +1,97 @@
+body {
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    padding: .5rem 2%;
+    background-color: #400543;
+    color: white;
+    text-align: center;
+}
+
+main {
+    padding: 0 2%;
+    min-height: 20rem;
+    background-color: rgb(217, 206, 214);
+}
+
+footer{
+    padding: .5rem 2%;
+    background-color: #400543;
+    color: white;
+    text-align: center;
+    margin: 2rem 0;    
+}
+
+.form1 fieldset, div{
+    margin:2rem 0;
+    border: none;
+    padding: .5rem 2%;
+}
+
+.form1 label{
+    display: block;
+    padding-top: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.form1 p{
+    color: blue;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.form1 input[type="text"],
+.form1 input[type="date"],
+.form1 select
+{
+    background-color:#fff;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #000;
+    width:100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+.form1 input[type="textarea"]
+{
+    background-color:#fff;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #000;
+    width: 400px;
+	height: 120px; 
+}
+
+.form1 input[type="radio"],
+.form1 input[type="checkbox"]
+{
+    margin-right: 6px;
+}
+
+label input[type="radio"]
+{
+    display : flex;
+    flex-direction : row;
+    padding-right : 2rem;  
+}
+
+.form1 input[type="submit"]
+{
+    border: none;
+    background-image: linear-gradient(#c1bebd, #908e8d);
+    color: #000;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 100%;
+    max-width: 400px;
+    margin: -1rem 2% 2rem 2%;
+    align-self: center;
+}
