@@ -19,20 +19,23 @@
         </header>
         <main>
             <form method="get" action="review.html" class="form1">
-                <div class="product">
-                    <label>Product Name</label>
-                    <select id="product-select" name="product" required disabled>
-                        <option value="">Select a Product ...   &#9662; </option>
-                    </select>
-                </div>
+                <fieldset>
+                    <label>Product Name
+                        <select id="productSelect" name="product" required>
+                            <option value="" disabled selected>Select a Product ...  </option>
+                        </select>
+                    </label>
+                </fieldset>
                 
                 <fieldset>
                     <label>Overall Rating</label>
-                    <label>☆</label><input type="radio" name="star" id="star1" required>
-                    <label>&star;&star;</label><input type="radio" name="star" id="star2" required>
-                    <label>&star;&star;&star;</label><input type="radio" name="star" id="star3" required>
-                    <label>&star;&star;&star;&star;</label><input type="radio" name="star" id="star4" required>
-                    <label>&star;&star;&star;&star;&star;</label><input type="radio" name="star" id="star5" required>
+                    <div class="radio_star">
+                        <label><span>☆</span><input type="radio" name="star" id="star1" required></label>
+                        <label><span>&star;&star;</span><input type="radio" name="star" id="star2" required></label>
+                        <label><span>&star;&star;&star;</span><input type="radio" name="star" id="star3" required></label>
+                        <label><span>&star;&star;&star;&star;</span><input type="radio" name="star" id="star4" required></label>
+                        <label><span>&star;&star;&star;&star;&star;</span><input type="radio" name="star" id="star5" required></label>
+                    </div>
                 </fieldset>
 
                 <fieldset>
@@ -40,7 +43,7 @@
                 </fieldset>
 
                 <fieldset>
-                    <label>Wich features did you find useful in the product?<br>(Check all that apply)</label>
+                    <label>Wich features did you find useful in the product?<br><span class="check">(check all that apply)</span></label>
                     <label><input type="checkbox" name="durability" id="durability" value="yes">Durability</label>
                     <label><input type="checkbox" name="ease" id="ease" value="yes">Ease of Use</label>
                     <label><input type="checkbox" name="performance" id="perf" value="yes">Performance</label>
@@ -48,12 +51,12 @@
                 </fieldset>
 
                 <fieldset>
-                    <label>Written Review (Optional)</label>
+                    <label>Written Review <span class="optional">(Optional)</span></label>
                     <textarea id="review" name="review" rows="10" cols="70"></textarea>
                 </fieldset>
 
                 <fieldset>
-                    <label>Your Name (Optional)</label>
+                    <label>Your Name <span class="optional">(Optional)</span></label>
                     <input type="text" id="name" name="name">
                 </fieldset>
 
