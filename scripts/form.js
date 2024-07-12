@@ -2,7 +2,7 @@ const products = [
   {
     id: fc-1888,
     name: "flux capacitor",
-    avveragerating: 4.5
+    averagerating: 4.5
   },
   {
     id: fc-2050,
@@ -26,16 +26,14 @@ const products = [
   }
 ];
 
-const productSelect = document.getElementById("productSelect")
+const selectProduct = document.getElementById("productSelect");
+
 
 products.forEach((product) => {
   const option = document.createElement("option");
   option.value = product.id;
   option.textContent = product.name;
-  productSelect.appendChild(option);
+  selectProduct.appendChild(option);
 })
 
-// document.addEventListener("DOMContentLoaded", function() {
-//   let reviewCounter = parseInt(localStorage.getItem("reviewCounter")) || 0;
-//   const form = document.querySelector(".form1");
-// });
+
