@@ -8,7 +8,7 @@ header{
     font-weight: 700;
     text-align: center;
     padding: 2rem;
-    text-decoration: underline solid rgb(247, 35, 35) 2px;
+    text-decoration: underline solid rgb(219, 37, 37) 2px;
 }
 
 h1, h2{
@@ -45,5 +45,5 @@ footer{
     font-family: "josefin sans";
     text-align: center;
     padding: 1rem;
-    text-decoration: underline solid rgb(247, 35, 35) 2px;
+    text-decoration: underline solid rgb(219, 37, 37) 2px;
 }
