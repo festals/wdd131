@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(241, 238, 238);
+    margin: 0 0;
+    padding: 0;
+}
+
+header{
+    font-weight: 700;
+    text-align: center;
+    padding: 2rem;
+    text-decoration: underline solid rgb(247, 35, 35) 2px;
+}
+
+h1, h2{
+    font-family: "dancing script";
+}
+
+h2{
+    font-weight: 400;
+    padding-top:1rem;
+    padding-left:1rem;
+}
+
+main p{
+    text-align: justify;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: "josefin sans";
+}
+
+img{
+    padding: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+figcaption {
+    font-style: italic;
+    text-align : center;
+}
+
+footer{
+    font-family: "josefin sans";
+    text-align: center;
+    padding: 1rem;
+    text-decoration: underline solid rgb(247, 35, 35) 2px;
+}
