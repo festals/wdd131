@@ -1,0 +1,168 @@
+* {box-sizing:border-box}
+
+body{
+    background-color: rgb(241, 238, 238);
+}
+
+p{
+    font-family: "josefin sans";
+    text-align: justify;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+footer p{
+    font-family: "josefin sans";
+    text-align: center;
+}
+
+footer{
+    padding-top: 2rem;
+}
+
+header{
+    padding: 3rem;
+}
+
+h1, h2{
+    font-family: "dancing script";
+}
+
+h2{
+    font-weight: 400;
+    padding-top:1rem;
+    padding-left:1rem;
+    text-align: center;
+    text-decoration:underline;
+    text-decoration-color: rgb(219, 37, 37);
+}
+
+/* slideshow */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  background-color:  rgb(219, 37, 37);
+  padding: 2rem;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.mySlides img {
+    max-width: 400px;
+    border: 6px solid white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+
+/* menu hamburger*/
+#menu {
+    display : block;
+    font-size : 2rem;
+    text-decoration : none;
+    padding : 0.5rem 1rem;
+    position : absolute;
+    top : 0;
+    right : 0;
+}
+
+#menu::before {
+    content : "≡";
+    color: black;
+}
+
+.navigation {
+    display : flex;
+    flex-direction : column;
+    list-style : none;
+}
+
+.navigation li {
+    display : none;
+}
+
+.navigation a {
+    display : block;
+    text-decoration : none;
+    color : black;
+    text-align : center;
+    padding : 0.75rem;
+    font-weight : 700;
+    transition : 0.5s;
+}
+
+.navigation a:hover {
+    text-decoration :overline;
+    text-decoration-color: rgb(219, 37, 37);
+}
+
+.show {
+    display : flex;
+    flex-direction : column;
+}
+
+.show li {
+    display : block;
+}
+
+#menu.show::before {
+    content : "X";
+    position : absolute;
+    top : 0;
+    right : 0;
+    padding : 1rem;
+}
+
+.navigation.show + h1, h1.show {
+    display : none;
+}
+
+
+/* new */
+.images img{
+    max-width: 150px;
+    border: solid 0.5rem white;
+}
+
+.images{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}

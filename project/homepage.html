@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-Us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home Page Sophie's Cooking Diary</title>
+        <meta name="description" content="Home page for my project Sophie's cooking diary for wdd 131 course by sophie festal">
+        <meta name="author" content="Sophie Festal">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital@0;1&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/homepage.css">
+        <link rel="stylesheet" href="styles/homepage-large.css">
+        <script defer src="../scripts/getdates.js"></script>
+        <script defer src="../scripts/temples.js"></script>
+        <script defer src="scripts/homepage.js"></script>
+    </head>
+    <body>
+       <header>
+        <h1>Sophie's Cooking Diary</h1>
+        <a id="menu"></a>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="Home">Home</a></li>
+                    <li><a href="Easy">Easy</a></li>
+                    <li><a href="New">New</a></li>
+                    <li><a href="Season">Season</a></li>
+                    <li><a href="Subscribe">Subscribe</a></li>
+                </ul>
+            </nav>
+       </header>
+       <main>
+        <div class="slideshow-container">
+            <div class="mySlides">
+              <img src="images/brownies.jpg" alt="picture of brownies" style="width:100%">
+              <div class="text">Brownies</div>
+            </div>
+
+            <div class="mySlides">
+              <img src="images/feuilletepesto.jpg" alt="Pesto puff pastry" style="width:100%">
+              <div class="text">Pesto puff pastry</div>
+            </div>
+          
+            <div class="mySlides">
+                <img src="images/domatokeftedes.jpg" alt="tomatoes firtters" style="width:100%">
+                <div class="text">Domatokeftedes</div>
+              </div>
+
+              <div class="mySlides">
+                <img src="images/gnocchi.jpg" alt="Pumpkin gnocchi" style="width:100%">
+                <div class="text">Pumpkin gnocchi</div>
+              </div>
+
+              <div class="mySlides">
+                <img src="images/pesto.jpg" alt="basil, garlic ,olive oil" style="width:100%">
+                <div class="text">Pesto</div>
+              </div>
+
+              <div class="mySlides">
+                <img src="images/apricot.jpg" alt="Apricot Cake" style="width:100%">
+                <div class="text">Apricot Cake</div>
+              </div>
+                  
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <div class="large">
+            <div class="images">
+                <h2>New Recipes</h2>
+                <div id="img1">
+                    <figure>
+                        <img src="images/apricot.jpg" alt="Apricot Cake">
+                        <figcaption>New !!</figcaption>
+                    </figure>
+                </div>
+                <div id="img2">
+                    <figure>
+                        <img src="images/domatokeftedes.jpg" alt="tomatoes fritters">
+                        <figcaption>New !!</figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="message">
+                <h2>Welcome Message</h2>
+                <p>Hello Everyone! I'm Sophie your new friend (I hope), you will find a lot of thing here, new tasty recipe of course, but also some easy recipe for when you feel tired but still want to eat some yummy food. And if you are like me and enjoy eating fruits and vegetables that are fresh and want to help reduce your carbone imprints, you will find here some seasonal recipes. And please don't hesitate to subscribe, to get a reminder of the dropping of new recipes and some hot tips on what to do with your seasonal fruits and veggies.</p>
+            </div>
+        </div>
+          
+
+
+
+
+
+       </main>
+       <footer>
+        <p>
+            ©️<span id="currentyear"></span> | Sophie Festal | FRANCE
+        </p>
+        <p>Last modification: <span id="lastModified"></span></p>
+        </footer> 
+    </body>
+</html>
