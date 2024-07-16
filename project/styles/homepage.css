@@ -73,9 +73,9 @@ h2{
 .text {
   color: #f2f2f2;
   font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
+  padding: 5px 12px;
+  position:absolute;
+  bottom: 2px;
   width: 100%;
   text-align: center;
 }
@@ -158,11 +158,18 @@ h2{
 .images img{
     max-width: 150px;
     border: solid 0.5rem white;
+    
 }
 
-.images{
+.large{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 30%;
+}
+
+.large p{
+    margin-left: -6rem;
+    margin-right: -6rem;
+    text-align: center;
 }
