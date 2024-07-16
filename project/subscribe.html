@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-Us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Subscription to Sophie's Cooking Diary</title>
+        <meta name="description" content="Subscription form for my project Sophie's cooking diary for wdd 131 course by sophie festal">
+        <meta name="author" content="Sophie Festal">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital@0;1&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/homepage.css">
+        <link rel="stylesheet" href="styles/homepage-large.css">
+        <script defer src="../scripts/getdates.js"></script>
+        <script defer src="scripts/homepage.js"></script>
+
+    </head>
+    <body>
+        <header>
+            <h1>Subscription to the Newsletter</h1>
+            <a id="menu"></a>
+                <nav>
+                    <ul class="navigation">
+                        <li><a href="homepage.html" id="home">Home</a></li>
+                        <li><a href="#" id="easy">Esay</a></li>
+                        <li><a href="#" id="new">New</a></li>
+                        <li><a href="#" id="old">Old</a></li>
+                        <li><a href="subscribe.html">Subscribe</a></li>
+                    </ul>
+                </nav>
+           </header>
+           <main>
+            
+            <form method="get" action="thanks.html" class="form1">
+                
+            <p>By subscribing to the Newsletter, you will receive a monthly email with great tips for the seasonal fruits and veggies.
+                A reminder of the new recipe for this month and all the updates!!
+            </p>
+
+                <fieldset>
+                    <label>Email *<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                </fieldset>
+
+                <fieldset>
+                    <label>First Name*</label>
+                    <input type="text" id="fname" name="fname" required>
+                </fieldset>
+
+                <fieldset>
+                    <label>Last Name</label>
+                    <input type="text" id="lName" name="lName">
+                </fieldset>
+
+                <fieldset>
+                    <label>Comments</label>
+                    <textarea id="review" name="review" rows="10" cols="70"></textarea>
+                </fieldset>
+
+                <fieldset>
+                    <label>How did you hear about Sophie's Cooking Diary 
+                        <select id="how" name="how">
+                            <option value="" disabled selected>Select a choice ...  </option>
+                            <option value="Instagram" >Through Instagram </option>
+                            <option value="Facebook" >Through Facebook </option>
+                            <option value="friend" >Through a friend </option>
+                            <option value="Pinterest" >Through Pinterest </option>
+                            <option value="luck" >By sheer luck </option>
+                            
+                        </select>
+                    </label>
+                </fieldset>
+
+                <p>* means that it is required</p>
+                <input type="submit" value="Subscribe">
+            </form>
+        </main>
+        <footer>
+            <p>
+                ©️<span id="currentyear"></span> | Sophie Festal | FRANCE
+            </p>
+            <p>Last modification: <span id="lastModified"></span></p>
+        </footer>
+    </body>
+</html>

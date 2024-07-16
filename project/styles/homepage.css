@@ -37,6 +37,72 @@ h2{
     text-decoration-color: rgb(219, 37, 37);
 }
 
+/*form*/
+.form1{
+    width : 100%;
+    max-width : 410px;
+    margin : 0 auto;
+    padding-top : 0;
+    padding : 0 0.8rem 0.8rem 0.8rem;
+}
+
+
+.form1 fieldset, div{
+    margin: 1rem 0;
+    border: none;
+    padding: .5rem 2%;
+}
+
+.form1 label{
+    display: block;
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.form1 input[type="text"],
+.form1 input[type="date"],
+.form1 input[type="email"],
+.form1 select{
+    background-color:#fff;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #000;
+    width:100%;
+    max-width: 350px;
+}
+
+textarea{
+    background-color:#fff;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #000;
+    width: 100%;
+	height: 100px;
+    max-width: 350px; 
+}
+
+.form1 input[type="submit"]
+{
+    border: 2px solid black ;
+    background-image: linear-gradient(#d9623a, rgb(219, 37, 37));
+    color: #000;
+    font-family: "josefin sans";
+    font-weight: bold;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 100%;
+    max-width: 350px;
+    margin-bottom: 1rem;
+    margin-left: 5%;
+}
+
+
 /* slideshow */
 .slideshow-container {
   max-width: 1000px;
@@ -70,14 +136,13 @@ h2{
   background-color: rgba(0,0,0,0.8);
 }
 
-.text {
+.text1, .text2, .text3, .text4, .text5, .text6 {
   color: #f2f2f2;
   font-size: 15px;
   padding: 5px 12px;
   position:absolute;
-  bottom: 2px;
+  bottom: 100px;
   width: 100%;
-  text-align: center;
 }
 
 .mySlides img {
@@ -173,3 +238,4 @@ h2{
     margin-right: -6rem;
     text-align: center;
 }
+
