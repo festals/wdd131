@@ -74,167 +74,167 @@ const recipes6 = {
 };
 
 
-const div = document.querySelector(".text1");
+// const div = document.querySelector(".text1");
 
-const displayRecipe = (recipe) => {
-    div.innerHTML = "";
-      const section = document.createElement("section");
+// const displayRecipe = (recipe) => {
+//     div.innerHTML = "";
+//       const section = document.createElement("section");
 
-      const name = document.createElement("p");        
-      const prepTime = document.createElement("p");        
-      const cookingTime = document.createElement("p");        
-      const ingredients = document.createElement("p");        
-      name.innerHTML = recipe.name;
-      prepTime.innerHTML = `Preparation: ${recipe.prepTime}`;
-      cookingTime.innerHTML = `Bake for: ${recipe.cookingTime}`;
-      ingredients.innerHTML = `Ingredients: ${recipe.ingredients}`;
+//       const name = document.createElement("p");        
+//       const prepTime = document.createElement("p");        
+//       const cookingTime = document.createElement("p");        
+//       const ingredients = document.createElement("p");        
+//       name.innerHTML = recipe.name;
+//       prepTime.innerHTML = `Preparation: ${recipe.prepTime}`;
+//       cookingTime.innerHTML = `Bake for: ${recipe.cookingTime}`;
+//       ingredients.innerHTML = `Ingredients: ${recipe.ingredients}`;
 
-      section.appendChild(name);
-      section.appendChild(prepTime);
-      section.appendChild(cookingTime);
-      section.appendChild(ingredients);
+//       section.appendChild(name);
+//       section.appendChild(prepTime);
+//       section.appendChild(cookingTime);
+//       section.appendChild(ingredients);
 
-      div.appendChild(section);
-    ;
-}
+//       div.appendChild(section);
+//     ;
+// }
 
-displayRecipe(recipes1);
+// displayRecipe(recipes1);
 
-const div2 = document.querySelector(".text2");
+// const div2 = document.querySelector(".text2");
 
-const displayRecipe2 = (recipe) => {
-    div2.innerHTML = "";
-      const section = document.createElement("section");
+// const displayRecipe2 = (recipe) => {
+//     div2.innerHTML = "";
+//       const section = document.createElement("section");
 
-      const name = document.createElement("p");        
-      const prepTime = document.createElement("p");        
-      const cookingTime = document.createElement("p");        
-      const ingredients = document.createElement("p");        
-      name.innerHTML = recipe.name;
-      prepTime.innerHTML = `Preparation: ${recipe.prepTime}`;
-      cookingTime.innerHTML = `Bake for: ${recipe.cookingTime}`;
-      ingredients.innerHTML = `ingredients: ${recipe.ingredients}`;
+//       const name = document.createElement("p");        
+//       const prepTime = document.createElement("p");        
+//       const cookingTime = document.createElement("p");        
+//       const ingredients = document.createElement("p");        
+//       name.innerHTML = recipe.name;
+//       prepTime.innerHTML = `Preparation: ${recipe.prepTime}`;
+//       cookingTime.innerHTML = `Bake for: ${recipe.cookingTime}`;
+//       ingredients.innerHTML = `ingredients: ${recipe.ingredients}`;
 
-      section.appendChild(name);
-      section.appendChild(prepTime);
-      section.appendChild(cookingTime);
-      section.appendChild(ingredients);
+//       section.appendChild(name);
+//       section.appendChild(prepTime);
+//       section.appendChild(cookingTime);
+//       section.appendChild(ingredients);
 
-      div2.appendChild(section);
-    ;
-}
+//       div2.appendChild(section);
+//     ;
+// }
 
-displayRecipe2(recipes2);
-
-
-const div3 = document.querySelector(".text3");
-
-const displayRecipe3 = (recipe) => {
-    div3.innerHTML = "";
-      const section = document.createElement("section");
-
-      const name = document.createElement("p");        
-      const prepTime = document.createElement("p");        
-      const cookingTime = document.createElement("p");        
-      const ingredients = document.createElement("p");        
-      name.innerHTML = recipe.name;
-      prepTime.innerHTML = `Preparation: ${recipe.prepTime}`;
-      cookingTime.innerHTML = `Bake for: ${recipe.cookingTime}`;
-      ingredients.innerHTML = `ingredients: ${recipe.ingredients}`;
-
-      section.appendChild(name);
-      section.appendChild(prepTime);
-      section.appendChild(cookingTime);
-      section.appendChild(ingredients);
-
-      div3.appendChild(section);
-    ;
-}
-
-displayRecipe3(recipes3);
+// displayRecipe2(recipes2);
 
 
-const div4 = document.querySelector(".text4");
+// const div3 = document.querySelector(".text3");
 
-const displayRecipe4 = (recipe) => {
-    div4.innerHTML = "";
-      const section = document.createElement("section");
+// const displayRecipe3 = (recipe) => {
+//     div3.innerHTML = "";
+//       const section = document.createElement("section");
 
-      const name = document.createElement("p");        
-      const prepTime = document.createElement("p");        
-      const cookingTime = document.createElement("p");        
-      const ingredients = document.createElement("p");        
-      name.innerHTML = recipe.name;
-      prepTime.innerHTML = `Preparation: ${recipe.prepTime}`;
-      cookingTime.innerHTML = `Bake for: ${recipe.cookingTime}`;
-      ingredients.innerHTML = `ingredients: ${recipe.ingredients}`;
+//       const name = document.createElement("p");        
+//       const prepTime = document.createElement("p");        
+//       const cookingTime = document.createElement("p");        
+//       const ingredients = document.createElement("p");        
+//       name.innerHTML = recipe.name;
+//       prepTime.innerHTML = `Preparation: ${recipe.prepTime}`;
+//       cookingTime.innerHTML = `Bake for: ${recipe.cookingTime}`;
+//       ingredients.innerHTML = `ingredients: ${recipe.ingredients}`;
 
-      section.appendChild(name);
-      section.appendChild(prepTime);
-      section.appendChild(cookingTime);
-      section.appendChild(ingredients);
+//       section.appendChild(name);
+//       section.appendChild(prepTime);
+//       section.appendChild(cookingTime);
+//       section.appendChild(ingredients);
 
-      div4.appendChild(section);
-    ;
-}
+//       div3.appendChild(section);
+//     ;
+// }
 
-displayRecipe4(recipes4);
-
-
-const div5 = document.querySelector(".text5");
-
-const displayRecipe5 = (recipe) => {
-    div5.innerHTML = "";
-      const section = document.createElement("section");
-
-      const name = document.createElement("p");        
-      const prepTime = document.createElement("p");        
-      const cookingTime = document.createElement("p");        
-      const ingredients = document.createElement("p");        
-      name.innerHTML = recipe.name;
-      prepTime.innerHTML = `Preparation: ${recipe.prepTime}`;
-      cookingTime.innerHTML = `Bake for: ${recipe.cookingTime}`;
-      ingredients.innerHTML = `ingredients: ${recipe.ingredients}`;
-
-      section.appendChild(name);
-      section.appendChild(prepTime);
-      section.appendChild(cookingTime);
-      section.appendChild(ingredients);
-
-      div5.appendChild(section);
-    ;
-}
-
-displayRecipe5(recipes5);
+// displayRecipe3(recipes3);
 
 
-const div6 = document.querySelector(".text6");
+// const div4 = document.querySelector(".text4");
 
-const displayRecipe6 = (recipe) => {
-    div6.innerHTML = "";
-      const section = document.createElement("section");
+// const displayRecipe4 = (recipe) => {
+//     div4.innerHTML = "";
+//       const section = document.createElement("section");
 
-      const name = document.createElement("p");        
-      const prepTime = document.createElement("p");        
-      const cookingTime = document.createElement("p");        
-      const ingredients = document.createElement("p");        
-      name.innerHTML = recipe.name;
-      prepTime.innerHTML = `Preparation: ${recipe.prepTime}`;
-      cookingTime.innerHTML = `Bake for: ${recipe.cookingTime}`;
-      ingredients.innerHTML = `ingredients: ${recipe.ingredients}`;
+//       const name = document.createElement("p");        
+//       const prepTime = document.createElement("p");        
+//       const cookingTime = document.createElement("p");        
+//       const ingredients = document.createElement("p");        
+//       name.innerHTML = recipe.name;
+//       prepTime.innerHTML = `Preparation: ${recipe.prepTime}`;
+//       cookingTime.innerHTML = `Bake for: ${recipe.cookingTime}`;
+//       ingredients.innerHTML = `ingredients: ${recipe.ingredients}`;
 
-      section.appendChild(name);
-      section.appendChild(prepTime);
-      section.appendChild(cookingTime);
-      section.appendChild(ingredients);
+//       section.appendChild(name);
+//       section.appendChild(prepTime);
+//       section.appendChild(cookingTime);
+//       section.appendChild(ingredients);
 
-      div6.appendChild(section);
-    ;
-}
+//       div4.appendChild(section);
+//     ;
+// }
 
-displayRecipe6(recipes6);
+// displayRecipe4(recipes4);
 
 
+// const div5 = document.querySelector(".text5");
+
+// const displayRecipe5 = (recipe) => {
+//     div5.innerHTML = "";
+//       const section = document.createElement("section");
+
+//       const name = document.createElement("p");        
+//       const prepTime = document.createElement("p");        
+//       const cookingTime = document.createElement("p");        
+//       const ingredients = document.createElement("p");        
+//       name.innerHTML = recipe.name;
+//       prepTime.innerHTML = `Preparation: ${recipe.prepTime}`;
+//       cookingTime.innerHTML = `Bake for: ${recipe.cookingTime}`;
+//       ingredients.innerHTML = `ingredients: ${recipe.ingredients}`;
+
+//       section.appendChild(name);
+//       section.appendChild(prepTime);
+//       section.appendChild(cookingTime);
+//       section.appendChild(ingredients);
+
+//       div5.appendChild(section);
+//     ;
+// }
+
+// displayRecipe5(recipes5);
+
+
+// const div6 = document.querySelector(".text6");
+
+// const displayRecipe6 = (recipe) => {
+//     div6.innerHTML = "";
+//       const section = document.createElement("section");
+
+//       const name = document.createElement("p");        
+//       const prepTime = document.createElement("p");        
+//       const cookingTime = document.createElement("p");        
+//       const ingredients = document.createElement("p");        
+//       name.innerHTML = recipe.name;
+//       prepTime.innerHTML = `Preparation: ${recipe.prepTime}`;
+//       cookingTime.innerHTML = `Bake for: ${recipe.cookingTime}`;
+//       ingredients.innerHTML = `ingredients: ${recipe.ingredients}`;
+
+//       section.appendChild(name);
+//       section.appendChild(prepTime);
+//       section.appendChild(cookingTime);
+//       section.appendChild(ingredients);
+
+//       div6.appendChild(section);
+//     ;
+// }
+
+// displayRecipe6(recipes6);
+
+const slides = document.querySelector("#mySlides")
 const easyLink = document.getElementById("easy");
 const newLink = document.querySelector("#new");
 const oldLink = document.querySelector("#old");

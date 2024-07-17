@@ -11,6 +11,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital@0;1&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles/homepage.css">
         <link rel="stylesheet" href="styles/homepage-large.css">
+        <script defer src="scripts/count.js"></script>
         <script defer src="../scripts/getdates.js"></script>
         <script defer src="scripts/homepage.js"></script>
 
@@ -30,6 +31,8 @@
                 </nav>
            </header>
            <main>
+            <h2>Subscribe to the Newsletter</h2>
+
             
             <form method="get" action="thanks.html" class="form1">
                 
@@ -38,12 +41,12 @@
             </p>
 
                 <fieldset>
-                    <label>Email *<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                    <label>Email *<input type="email" name="email" placeholder="someone@gmail.com"required></label>
                 </fieldset>
 
                 <fieldset>
                     <label>First Name*</label>
-                    <input type="text" id="fname" name="fname" required>
+                    <input type="text" id="fname" name="fname"required>
                 </fieldset>
 
                 <fieldset>
@@ -51,13 +54,26 @@
                     <input type="text" id="lName" name="lName">
                 </fieldset>
 
-                <fieldset>
-                    <label>Comments</label>
-                    <textarea id="review" name="review" rows="10" cols="70"></textarea>
-                </fieldset>
+                <p>* means that it is required</p>
+                <input type="submit" value="Subscribe">
+            </form>
+
+            <h2>Or Leave a Comment</h2>
+
+            <form method="get" action="count.html" class="form1">
 
                 <fieldset>
-                    <label>How did you hear about Sophie's Cooking Diary 
+                    <label>Your Name*</label>
+                    <input type="text" id="name" name="name"required>
+                </fieldset>
+    
+                <fieldset>
+                    <label>Email (if you like me to answer to your comment)<input type="email" name="email" placeholder="someone@gmail.com"></label>
+                </fieldset>
+
+
+                <fieldset>
+                    <label>How did you find Sophie's Cooking Diary 
                         <select id="how" name="how">
                             <option value="" disabled selected>Select a choice ...  </option>
                             <option value="Instagram" >Through Instagram </option>
@@ -70,9 +86,17 @@
                     </label>
                 </fieldset>
 
+                <fieldset>
+                    <label>Would you recommend Sophie's Cooking Diary to a friend</label>
+                        <label>Yes<input type="radio" name="recommendation" id="yes"></label>
+                        <label>No<input type="radio" name="recommendation" id="no"></label>
+                </fieldset>
+                
+
                 <p>* means that it is required</p>
-                <input type="submit" value="Subscribe">
+                <input type="submit" value="Send a Comment">
             </form>
+
         </main>
         <footer>
             <p>
