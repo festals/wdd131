@@ -8,7 +8,7 @@ const recipes =[
   nIngredients: "5",
   ingredients: "100g sugar, 70g flour, 3 eggs, 250g chocolate, 250g butter, 100g almond",
   posted: "2020, may",
-  imageUrl: "https://images.pexels.com/photos/887850/pexels-photo-887850.jpeg"
+  imageUrl: "https://images.pexels.com/photos/887853/pexels-photo-887853.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 },
 
 {
