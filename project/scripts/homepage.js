@@ -85,9 +85,6 @@ const displayRecipe = (frecipe) => {
     picture.setAttribute("src", recipe.imageUrl);
     picture.setAttribute("alt", recipe.name);
     picture.setAttribute("loading", "lazy");
-    picture.setAttribute("width", "600");
-    picture.setAttribute("height", "400");
-
     slides.setAttribute("class", "mySlides");
 
     section.appendChild(name);
