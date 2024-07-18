@@ -72,7 +72,7 @@ const displayRecipe = (frecipe) => {
     const figure = document.createElement("figure");
     const section = document.createElement("section");
 
-    const name = document.createElement("h3");        
+    const name = document.createElement("h2");        
     const prepTime = document.createElement("p");        
     const cookingTime = document.createElement("p");        
     const ingredients = document.createElement("p");        

@@ -1,3 +1,7 @@
+:root{
+    --red :  rgb(219, 37, 37);
+}
+
 * {box-sizing:border-box}
 
 body{
@@ -24,18 +28,22 @@ header{
     padding: 3rem;
 }
 
-h1, h2{
+h1, h3{
     font-family: "dancing script";
 }
 
-
 h2{
+    font-family: "josefin sans";
+}
+
+h3{
     font-weight: 400;
+    font-size:x-large;
     padding-top:1rem;
     padding-left:1rem;
     text-align: center;
     text-decoration:underline;
-    text-decoration-color: rgb(219, 37, 37);
+    text-decoration-color: var(--red);
 }
 
 /*form*/
@@ -43,9 +51,10 @@ h2{
     width : 100%;
     max-width : 410px;
     margin : 0 auto;
+    margin-top: 3rem;
     padding-top : 0;
-    padding : 0 0.8rem 0.8rem 0.8rem;
-    border: solid 1px rgb(219, 37, 37);
+    padding : 0 0.8rem 0.8rem 01rem;
+    border: solid 2px var(--red);
     border-radius: 15px;
 }
 
@@ -93,7 +102,7 @@ textarea{
 .form1 input[type="submit"]
 {
     border: 2px solid black ;
-    background-image: linear-gradient(#d9623a, rgb(219, 37, 37));
+    background-image: linear-gradient(#d9623a, var(--red));
     color: #000;
     font-family: "josefin sans";
     font-weight: bold;
@@ -107,7 +116,7 @@ textarea{
 
 .form1 input:required,
 .form1 textarea:required{
-    border-left: solid 8px rgb(219, 37, 37); 
+    border-left: solid 8px var(--red); 
 }
 
 .form1 input:required:valid,
@@ -121,7 +130,7 @@ textarea{
   max-width: 1000px;
   position: relative;
   margin: auto;
-  background-color:  rgb(219, 37, 37);
+  background-color:  white;
   padding: 2rem;
 }
 
@@ -160,7 +169,7 @@ textarea{
 
 .mySlides img {
     max-width: 400px;
-    border: 6px solid white;
+    border: 6px solid var(--red);
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -207,7 +216,7 @@ textarea{
 
 .navigation a:hover {
     text-decoration :overline;
-    text-decoration-color: rgb(219, 37, 37);
+    text-decoration-color:var(--red);
 }
 
 .show {
@@ -235,7 +244,7 @@ textarea{
 /* new */
 .images img{
     max-width: 150px;
-    border: solid 0.5rem white;
+    border: solid 0.5rem var(--red);
     
 }
 
