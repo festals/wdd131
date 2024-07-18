@@ -53,8 +53,11 @@
 
     .images figure{
         padding-left: 2rem;
-        display: flex;
-        float:right;
+        display: float;
+        float:left;
     }
  
+    .images #img1 figure{
+        padding-top:2rem;
+    }
 }

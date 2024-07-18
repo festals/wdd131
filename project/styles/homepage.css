@@ -17,7 +17,7 @@ footer p{
 }
 
 footer{
-    padding-top: 2rem;
+    padding-top: 15rem;
 }
 
 header{
@@ -27,6 +27,7 @@ header{
 h1, h2{
     font-family: "dancing script";
 }
+
 
 h2{
     font-weight: 400;
@@ -242,7 +243,7 @@ textarea{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 37%;
 }
 
 .large p{
@@ -251,3 +252,6 @@ textarea{
     text-align: center;
 }
 
+.thanks p{
+    text-align: center;
+}

@@ -16,16 +16,4 @@ localStorage.setItem("numComment-ls", numComment);
 
 
 
-const userName = document.querySelector("#fname").value
-userNameText.textContent = userName
-localStorage.setItem("fname", userName)
-
-function displayUserName () {
-  const nameFromLocalStorage = localStorage.getItem("fname")
-  userNameText.textContent = nameFromLocalStorage
-
-}
-
-displayUserName()
-
 
