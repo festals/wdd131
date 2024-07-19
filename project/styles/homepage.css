@@ -210,10 +210,11 @@ textarea{
 /* new */
 .images img{
     width: 170px;
-    height: 250px;
+    height: 227px;
     border: solid 0.5rem var(--red);
     
 }
+
 
 .large{
     display: block;
