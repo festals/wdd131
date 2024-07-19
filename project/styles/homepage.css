@@ -210,7 +210,8 @@ textarea{
 
 /* new */
 .images img{
-    max-width: 150px;
+    width: 170px;
+    height: 250px;
     border: solid 0.5rem var(--red);
     
 }
